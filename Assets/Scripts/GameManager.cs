@@ -52,12 +52,14 @@ public class GameManager : MonoBehaviour {
 		
 		//当游戏状态为游戏胜利（Winning）状态时
 		case GameState.Winning:
-            SceneManager.LoadScene("level1");	//加载场景level1
+                //SceneManager.LoadScene("level1");	//加载场景level1
+                SceneManager.LoadScene("anotherlevel1");
             break;
 		
 		//当游戏状态为游戏失败（GameOver）状态时
 		case GameState.GameOver:
-			SceneManager.LoadScene("level1");	//加载场景level1
+                //SceneManager.LoadScene("level1");	//加载场景level1
+                SceneManager.LoadScene("anotherlevel1");
             break;
 		}
 	}

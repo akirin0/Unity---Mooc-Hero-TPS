@@ -126,6 +126,7 @@ GameObject:
   - component: {fileID: 3327714}
   - component: {fileID: 2322526}
   - component: {fileID: 6447406}
+  - component: {fileID: 114698366654646790}
   m_Layer: 0
   m_Name: Top
   m_TagString: Untagged
@@ -1955,8 +1956,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 175000}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 122.5, y: 0, z: 108.46697}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 145.92914, y: -78.45578, z: -82.63364}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 440886}
@@ -10599,3 +10600,18 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 175000}
   m_IsPrefabParent: 1
+--- !u!114 &114698366654646790
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 106744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74429c5955a5dc046ab2981361f42b6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  createGameObject: {fileID: 162970, guid: 4b756f17d823f8e4d9284d208142c440, type: 2}
+  minSecond: 5
+  maxSecond: 10
+  targetTrace: {fileID: 0}
